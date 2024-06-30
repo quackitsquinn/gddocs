@@ -89,7 +89,10 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k90 | Leaderboard percentage         | **integer**                                                      | Contains the percentage for level Leaderboards                      |
 | k104| Custom songs                 | **String**                                                      | A comma-separated list of songs used in the level if more than one.                |
 | k105| SFX ids                      | **String**                                                      | A comma-separated list of SFX ids used in the level.             |
-
+| k106| Best Time                     | **integer**                                                      | The best time on a level                                                         |
+| k107| Best Points                   | **integer**                                                      | The best points on a level                                                       |
+| k109| Local Time                    | **integer**                                                      | The local time of the level (?)|
+| k110| Local Scores                  | **String**                                                      | The local scores of the level (?)|
 **Last Editor State Key/Value Pairs**
 The last editor state key/value pairs contain a few values that indicate the last state of the editor before exiting the editor on that level.
 
