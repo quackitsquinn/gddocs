@@ -31,6 +31,7 @@ Gets a user's quests.
 ## Response
 
 A list of attributes of the quests, separated by colons `:` as follows:
+
 - A random string of 5 characters
 - User's player ID
 - The number used for the `chk`
@@ -38,11 +39,11 @@ A list of attributes of the quests, separated by colons `:` as follows:
 - User's account ID
 - Seconds left until quests are replenished
 - First quest's attributes in a comma separated list
-	- Maybe the amount of quests completed?
-	- The type of item needed: 1 is orbs, 2 is coins, and 3 is stars
-	- The amount of the item needed
-	- How many diamonds the quest gives
-	- The name of the quest
+ 	- Maybe the amount of quests completed?
+ 	- The type of item needed: 1 is orbs, 2 is coins, and 3 is stars
+ 	- The amount of the item needed
+ 	- How many diamonds the quest gives
+ 	- The name of the quest
 - Second quest's attributes in a comma separated list
 - Third quest's attributes in a comma separated list
 
@@ -68,6 +69,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 uFpntVWhadWMLCAsADwgLCwwCCw8BAAUBA3EUVFBXGERCRRl6ZxdZXEpRDQEDAAYHAgMJGAUdCxQBG3JWUVoXd1BWUFJDAwkYBB0ICBgGARVrQFZDGXtbW11cW0BYQwMJGAYdCAgEBx0IDRh4Q1sYeVZCTV1G|00bb89e2d55fc22fb9b60b9f41f1d6e5663b3036
 ```

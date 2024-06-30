@@ -9,6 +9,7 @@ A typical user server response is structured with a `key:value:key:value` pairin
 <!-- tabs:start -->
 
 #### **User Example Response**
+
 ```md
 1:TheWylieMaster:2:84696119:13:67:17:176:10:4:11:16:3:1725:46:2991:4:33:8:0:18:0:19:0:50:0:20:../watch?v=dQw4w9WgXcQ:21:31:22:10:23:30:24:1:25:35:26:23:28:1:43:11:48:1:30:0:16:9276649:31:0:44:TheWylieMaster:45::49:0:38:0:39:0:40:0:41:1:29:1
 ```
@@ -47,7 +48,7 @@ A list of all known keys can be found in the table below
 | 28 | accGlow | **Integer** | The glow number of the player use |
 | 29 | isRegistered | **Integer** | if an account is registered or not |
 | 30 | globalRank | **Integer** | The global rank of this player |
-| 31 | friendstate | **Integer** | 0: None, 1: already is friend, 3: send request to target, but target haven't accept, 4: target send request, but haven't accept 
+| 31 | friendstate | **Integer** | 0: None, 1: already is friend, 3: send request to target, but target haven't accept, 4: target send request, but haven't accept
 | 38 | messages | **Integer** | How many new messages the user has (shown in-game as a notification) | <!-- there are a bunch of keys before here but they are exclusive to friend requests so i didnt add them here -->
 | 39 | friendRequests | **Integer** | How many new friend requests the user has (shown in-game as a notificaiton) |
 | 40 | newFriends | **Integer** | How many new Friends the user has (shown in-game as a notificaiton) |
@@ -66,4 +67,3 @@ A list of all known keys can be found in the table below
 - Setting Key `29` to `0` stops most aspects of your profile from loading
 
 - Key `27` is impossible to recieve from the server as there is no way for the server to know what the player's `streak` is
-

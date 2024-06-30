@@ -1,6 +1,7 @@
 # Client Inner Level String Resource
 
 ## Inner Level String
+
 The inner level string consists of information about the starting state of the level and the objects it contains. It is encoded in [base64](). Its raw representation is formatted as follows:
 
 `{level_start};{object_string}`, where
@@ -11,6 +12,7 @@ The inner level string consists of information about the starting state of the l
 Theoretically, the inner level string in its entirety is the object string, however the level start object is treated specially, unlike every other object, and doesn't even have an ID.
 
 ## Level Start Object
+
 The level start object is still an object and formated exactly like a normal [level object](level-object.md), but has the following properties instead:
 
 | Key  | Name                   | Type                                        | Description                                                                                                    |
@@ -100,6 +102,7 @@ Keys `kS16`-`kS20` used to determine the player color that was being used and th
 | 2     | Player Color 2 |
 
 ### Start Pos Object
+
 The Start Pos object has the same special properties the level start object has, with a few not working. `kA9` must be set to `1` in the case that the object is indeed a Start Pos.
 
 Specifically, the only functional properties in a Start Pos object are the ones involving gameplay state, thus excluding visual-related ones (BG/ground textures, font, colors, etc.)

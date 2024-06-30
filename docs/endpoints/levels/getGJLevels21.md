@@ -125,7 +125,6 @@ where:
 
 If the request is not successful, it will return `-1`
 
-
 <!-- tabs:start -->
 
 ### **Python**

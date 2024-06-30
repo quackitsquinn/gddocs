@@ -24,8 +24,6 @@ Removes someone from a user's friend list
 
 ## Response
 
-
-
 ## Example
 
 <!-- tabs:start -->
@@ -47,6 +45,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 1
 ```

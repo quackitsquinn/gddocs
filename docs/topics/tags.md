@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="stylesheets/imageStyles.css">
 <img src="https://raw.githubusercontent.com/Wyliemaster/gddocs/master/assets/screenshots/colour_tags.png" class="alertlayer">
 
-> Colour Tags are used to style areas of text with colour. They contain both a start and an end tag - the start tag defining which colour should be rendered on screen and the end tag denoting when to stop reading. 
+> Colour Tags are used to style areas of text with colour. They contain both a start and an end tag - the start tag defining which colour should be rendered on screen and the end tag denoting when to stop reading.
 
 **Usage:** `<cl>Coloured Text!</c>`
 

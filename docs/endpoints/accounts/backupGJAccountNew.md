@@ -2,7 +2,7 @@
 
 Saves account data
 
-**Note:** This page is on the account server. You can find the domain name by sending a request to /database/getAccountURL.php (currently http://www.robtopgames.net) 
+**Note:** This page is on the account server. You can find the domain name by sending a request to /database/getAccountURL.php (currently <http://www.robtopgames.net>)
 
 ## Parameters
 
@@ -51,6 +51,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 1
 ```

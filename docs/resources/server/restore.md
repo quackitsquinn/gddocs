@@ -29,4 +29,3 @@ There are three sections in regards to the `Official Level State` from the resto
 > - `{SecretCoins}` is an `Integer` which includes the ammount of Secret Coins you collected during the completion of the official level
 
 **<h4/>This structure is then iterated for each official level in the update and is split with a `;`**
-

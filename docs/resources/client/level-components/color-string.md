@@ -1,6 +1,7 @@
 # Client Color String Resource
 
 ## Color String
+
 The color string contains the information for the initial state of the colors being used in the level. Its raw representation is formatted as follows:
 
 `{color}|{color}|...`, where `color` is formatted as:
@@ -8,6 +9,7 @@ The color string contains the information for the initial state of the colors be
 `{property_key}_{property_value}_{property_key}_{property_value}_...`.
 
 ## Color Properties
+
 The color entries have the following properties:
 
 | Key | Name                | Type                                | Description                                |

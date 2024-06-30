@@ -36,7 +36,7 @@ The names for each BatchNode were provided by [RobTop himself](https://twitter.c
 | 2 | BatchNodeAdd | Blending, zLayer T1 | 9 |
 | 3 | BatchNodePlayer | unknown -> something about the player | 3 |
 | 4 | BatchNodeAddPlayer | unknown -> something about the player | 2 |
-| 5 | BatchNodeAddMid | Blending, zLayer B1 (zLayer = 4)| 1 | 
+| 5 | BatchNodeAddMid | Blending, zLayer B1 (zLayer = 4)| 1 |
 | 6 | BatchNodeBottom | zLayer B1 | -1 |
 | 7 | BatchNodeAddBottom | Blending, zLayer B1 | -2 |
 | 8 | EffectBatchNode | Animated, zLayer B1 | -6 |
@@ -46,7 +46,7 @@ The names for each BatchNode were provided by [RobTop himself](https://twitter.c
 | 12 | BatchNodeAddGlow | Blending, Glow, zLayer T1 | 9 |
 | 13 | BatchNodeAddBottomGlow | Blending, Glow, zLayer B1 | -2 |
 | 14 | BatchNodeAddBottom2Glow | Blending, Glow, zLayer B2 | -9 |
-| 15 | BatchNodeBottomGlow2 | Glow, zLayer B1 | -22 | 
+| 15 | BatchNodeBottomGlow2 | Glow, zLayer B1 | -22 |
 | 16 | BatchNodeAddBottom4 | Blending, zLayer B4 | -23 |
 | 17 | BatchNodeAddBottom4Glow | Blending, Glow, zLayer B4 | -23 |
 | 18 | BatchNodeBottom3 | zLayer B3 | -15 |
@@ -96,7 +96,7 @@ There are other types of Capacity Strings from older versions of the game. The t
 | 2.0 | 16 |
 
 The capacity string in 2.0 is quite easy to understand as it only contains the first 16 batch nodes in 2.1's capacity string. 1.9 is quite different with certain indexes containing multiple batch nodes.
- 
+
 > **Below is a table for 1.9's Capacity String.**  
 > Refer to the [Structure](/resources/client/level-components/Capacity-string?id=structure) section for the properties of the batchNodes
 
@@ -118,8 +118,6 @@ In the game options, there is a option the player can toggle called `High Capaci
 | 100 | BatchNodeText |
 
 If enabled, the Capacity string is disregarded and these values are used instead.
-
-
 
 ## Capacity String Generation
 

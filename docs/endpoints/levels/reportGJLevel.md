@@ -26,7 +26,7 @@ Reports a level
 import requests
 
 data = {
-	"levelID": 30194711,
+ "levelID": 30194711,
     "secret": "Wmfd2893gb7"
 }
 
@@ -35,6 +35,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 1
 ```

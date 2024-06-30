@@ -29,7 +29,7 @@ fuck it
 \* = do you like disclaimers, i don't
 
 <div class="projects_card">
-    <a href="$" class="project_card_background-container">         
+    <a href="$" class="project_card_background-container">
         <img class="project_card-background" src="https://pbs.twimg.com/media/ESu_msLVAAAT_qn?format=jpg&name=large" alt="background">
         <div class="project_card-background-overlay"></div>
     </a>

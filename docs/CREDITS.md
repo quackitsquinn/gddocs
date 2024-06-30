@@ -5,6 +5,7 @@
 ## Special Thanks
 
 **Special thanks to all the experts in GD Programming for their contributions to this project**
+
 - [Andre](https://github.com/AndreNIH)
 - [Cvolton](https://github.com/Cvolton)
 - [Colon](https://github.com/GDColon)
@@ -14,13 +15,3 @@
 - [Rekkon](https://github.com/Rekkonnect)
 - [zmx](https://github.com/qimiko)
 - [13laze](https://github.com/KiFilterFiberContext)
-
-
-
-
-
-
-
-
-
-

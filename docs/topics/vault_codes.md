@@ -31,8 +31,8 @@ Vault of Secrets and Chamber of time: [VaultCode] + ask2fpcaqCQ2 -> Xor with a k
 | Vault of Secrets | thechickenisonfire   | colour2
 | Vault of Secrets | gimmethecolor   | color1
 | Vault of Secrets | glubflub   | coin
-| Chamber Of Time  | silence | cube 
-| Chamber Of Time  | hunger | cube 
-| Chamber Of Time  | darkness | cube 
+| Chamber Of Time  | silence | cube
+| Chamber Of Time  | hunger | cube
+| Chamber Of Time  | darkness | cube
 | Chamber Of Time  | volcano | wave | 'a volcano' also works
 | Chamber Of Time  | river | color2 | 'a river' also works

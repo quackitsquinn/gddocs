@@ -2,7 +2,8 @@
 
 ## Leaderboard Score
 
-Leaderboards are the in-game ranking system for Geometry Dash. There are `7` types of leaderboards that are used as of version `2.11` 
+Leaderboards are the in-game ranking system for Geometry Dash. There are `7` types of leaderboards that are used as of version `2.11`
+>
 > - `Star Top 100` - The top 100 best star grinders
 > - `Star Friends` - The relative leaderboards between the user and his friends
 > - `Relative Star` - The players position on the global leaderboards along with 100 other players that have a rank relative to the player
@@ -14,7 +15,6 @@ Leaderboards are the in-game ranking system for Geometry Dash. There are `7` typ
 A typical leaderboard server response is structured with a `key:value:key:value` pairing and is then split with a `|`
 
 <!-- tabs:start -->
-
 
 ### **Level Leaderboard Example**
 
@@ -37,20 +37,20 @@ A list of all known keys can be found in the table below
 
 **Note:** keys marked by a `*` are only used for level leaderboards
 
-| Key | Name/Value                | Type                                         | Description                                                              
+| Key | Name/Value                | Type                                         | Description
 |-----|---------------------------|----------------------------------------------|--------------------------------------------------------------------------
-| 1   | userName				  | **String**									 | The username of the user
-| 2   | playerID				  | **Integer**									 | The player ID of the user. **This is different than the account ID**
-| 3   | percentage*				  | **Integer**									 | Percentage the user has on the level
-| 6   | ranking					  | **Integer**									 | What rank they are (e.g. Viprin would have 1 in the creating leaderboard)
-| 9   | Icon					  | **Integer**									 | Which icon the user is using, starting with 1 as the first icon
-| 10  | playerColor 			  | **Integer**									 | The user's primary player color, presumably ordered cronologically from left to right per update
-| 11  | playerColor2			  | **Integer**									 | The user's secondary player color, presumably ordered cronologically from left to right per update
-| 13  | coins        	          | **Integer**									 | Secret coins/number of usercoins you get on a level*
-| 14  | iconType				  | **Integer**									 | The user's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider`
-| 15  | special					  | **Integer**									 | functions the same as glow however it returns a 2 rather than a 1
-| 16  | accountID				  | **Integer**									 | The user's account ID. **This is different than the player ID**
-| 42  | age						  | **String** 									 | How long ago the score was set (e.g. "2 months")
+| 1   | userName      | **String**          | The username of the user
+| 2   | playerID      | **Integer**          | The player ID of the user. **This is different than the account ID**
+| 3   | percentage*      | **Integer**          | Percentage the user has on the level
+| 6   | ranking       | **Integer**          | What rank they are (e.g. Viprin would have 1 in the creating leaderboard)
+| 9   | Icon       | **Integer**          | Which icon the user is using, starting with 1 as the first icon
+| 10  | playerColor      | **Integer**          | The user's primary player color, presumably ordered cronologically from left to right per update
+| 11  | playerColor2     | **Integer**          | The user's secondary player color, presumably ordered cronologically from left to right per update
+| 13  | coins                   | **Integer**          | Secret coins/number of usercoins you get on a level*
+| 14  | iconType      | **Integer**          | The user's icon type indexing an array of `icon, ship, ball, ufo, wave, robot, spider`
+| 15  | special       | **Integer**          | functions the same as glow however it returns a 2 rather than a 1
+| 16  | accountID      | **Integer**          | The user's account ID. **This is different than the player ID**
+| 42  | age        | **String**           | How long ago the score was set (e.g. "2 months")
 
 ### Trivia
 

@@ -8,7 +8,6 @@ Welcome to the Geometry Dash documentation project. On this website, you will fi
 
 > If you wish to contribute to this project, please submit a [Pull Request](https://github.com/Wyliemaster/gddocs) in our GitHub repository
 
-
 ## Community Projects
 
 > Over the years, many community members have developed their own tools and software which interact with Geometry Dash and its servers

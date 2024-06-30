@@ -10,7 +10,7 @@
 
 ## kCEK 8 and 9 Structure
 
-`GJRewardItem` is a dictionary which contains `GJRewardObject` 
+`GJRewardItem` is a dictionary which contains `GJRewardObject`
 
 | key | encoder Key | use/description |
 |:----|:------------|:------------|
@@ -42,8 +42,8 @@
 
 | key | value |
 |:----|:------------|
-| 1 | ChestID | 
-| 2 | ChestType | 
+| 1 | ChestID |
+| 2 | ChestType |
 
 ##### Chest Types
 

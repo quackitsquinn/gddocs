@@ -1,6 +1,7 @@
 # Client Guideline String Resource
 
 ## Guideline String
+
 The guideline string is the linearized string format of the guidelines of a level. It is contained within the [inner level string](inner-level-string.md). It is formatted as follows:
 
 `{guideline}~{guideline}~{guideline}~...`, where `guideline` is formatted as:
@@ -22,6 +23,7 @@ E.g.:
   - Color value: 1 (green)
 
 ## Color Values
+
 The valid supported color values are the following:
 
 | Value | Color  |
@@ -37,4 +39,5 @@ The valid supported color values are the following:
 - Color values above 0.8 that do not match the yellow or the green guideline color values will result in an orange guideline.
 
 ### Trivia
+
 - A number of guidelines with color value 0.7 were found in Blast Processing, which are all transparent.

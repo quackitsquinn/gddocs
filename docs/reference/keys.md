@@ -26,5 +26,3 @@
 >
 > - Static Ciphers apply the key as is without any changes applying to the key itself.
 > - Cycled Ciphers iterate through each value on the key one by one and then loops back once it reaches the end.
-
-

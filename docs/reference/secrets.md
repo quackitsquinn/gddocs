@@ -1,6 +1,6 @@
 # Secrets
 
-> Secrets are 11 character strings used to validate if requests to the server were from a Geometry Dash client. Rather than generating a new secret for each request sent to the server, RobTop opted with hardcoing these secrets and slightly obfuscating them instead to stop people finding them. 
+> Secrets are 11 character strings used to validate if requests to the server were from a Geometry Dash client. Rather than generating a new secret for each request sent to the server, RobTop opted with hardcoing these secrets and slightly obfuscating them instead to stop people finding them.
 
 - **Below is a table showing all known secrets**
 
@@ -15,6 +15,7 @@
 | `Wmfx2878gb9` | Admin   |
 
 ### Secret Types
+
 <u>**As of Geometry Dash version 2.113, there are 4 *publicly* known secrets**</u>
 
 - Common Secret
@@ -34,18 +35,18 @@
    <tr><td><a href="/#/endpoints/account/getAccountURL">http://www.boomlings.com/database/getAccountURL.php</a></td></tr>
     <tr><td><a href="/#/endpoints/social/acceptGJFriendRequest20">http://www.boomlings.com/database/acceptGJFriendRequest20.php</a></td></tr>  
     <tr><td><a href="/#/endpoints/social/blockGJUser20">http://www.boomlings.com/database/blockGJUser20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/comment/deleteGJAccComment20">http://www.boomlings.com/database/deleteGJAccComment20.php</a></td></tr>        
+    <tr><td><a href="/#/endpoints/comment/deleteGJAccComment20">http://www.boomlings.com/database/deleteGJAccComment20.php</a></td></tr>
     <tr><td><a href="/#/endpoints/comment/deleteGJComment20">http://www.boomlings.com/database/deleteGJComment20.php</a></td></tr>
     <tr><td><a href="/#/endpoints/social/deleteGJFriendRequests20">http://www.boomlings.com/database/deleteGJFriendRequests20.php</a></td></tr>
     <tr><td><a href="/#/endpoints/social/deleteGJMessages20">http://www.boomlings.com/database/deleteGJMessages20.php</a></td></tr>
     <tr><td><a href="/#/endpoints/level/downloadGJLevel22">http://www.boomlings.com/database/downloadGJLevel22.php</a></td></tr>
     <tr><td><a href="/#/endpoints/social/downloadGJMessage20">http://www.boomlings.com/database/downloadGJMessage20.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/comment/getGJAccountComments20">http://www.boomlings.com/database/getGJAccountComments20.php</a></td></tr>    
+    <tr><td><a href="/#/endpoints/comment/getGJAccountComments20">http://www.boomlings.com/database/getGJAccountComments20.php</a></td></tr>
     <tr><td><a href="/#/endpoints/misc/getGJChallenges">http://www.boomlings.com/database/getGJChallenges.php</a></td></tr>
     <tr><td><a href="/#/endpoints/comment/getGJCommentHistory">http://www.boomlings.com/database/getGJCommentHistory.php</a></td></tr>
     <tr><td><a href="/#/endpoints/comment/getGJComments21">http://www.boomlings.com/database/getGJComments21.php</a></td></tr>
     <tr><td><a href="/#/endpoints/level/getGJDailyLevel">http://www.boomlings.com/database/getGJDailyLevel.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/social/getGJFriendRequests20">http://www.boomlings.com/database/getGJFriendRequests20.php</a></td></tr>      
+    <tr><td><a href="/#/endpoints/social/getGJFriendRequests20">http://www.boomlings.com/database/getGJFriendRequests20.php</a></td></tr>
     <tr><td><a href="/#/endpoints/level/getGJGauntlets21">http://www.boomlings.com/database/getGJGauntlets21.php</a></td></tr>
     <tr><td><a href="/#/endpoints/level/getGJLevelScores211">http://www.boomlings.com/database/getGJLevelScores211.php</a></td></tr>
     <tr><td><a href="/#/endpoints/level/getGJLevels21">http://www.boomlings.com/database/getGJLevels21.php</a></td></tr>
@@ -85,11 +86,11 @@
 
 <table>
     <tr><th><center>Endpoint</center></th></tr>
-    <tr><td><a href="/#/endpoints/account/registerGJAccount">http://www.boomlings.com/database/accounts/registerGJAccount.php</a></td></tr>     
+    <tr><td><a href="/#/endpoints/account/registerGJAccount">http://www.boomlings.com/database/accounts/registerGJAccount.php</a></td></tr>
     <tr><td><a href="/#/endpoints/account/loginGJAccount">http://www.boomlings.com/database/accounts/loginGJAccount.php</a></td></tr>
-    <tr><td><a href="/#/endpoints/account/syncGJAccountNew">http://geometrydash.com/database/accounts/syncGJAccountNew.php</a></td></tr>        
-    <tr><td><a href="/#/endpoints/account/backupGJAccountNew">http://geometrydash.com/database/accounts/backupGJAccountNew.php</a></td></tr>    
-    <tr><td><a href="/#/endpoints/account/updateGJAccSettings20">http://www.boomlings.com/database/updateGJAccSettings20.php</a></td></tr>    
+    <tr><td><a href="/#/endpoints/account/syncGJAccountNew">http://geometrydash.com/database/accounts/syncGJAccountNew.php</a></td></tr>
+    <tr><td><a href="/#/endpoints/account/backupGJAccountNew">http://geometrydash.com/database/accounts/backupGJAccountNew.php</a></td></tr>
+    <tr><td><a href="/#/endpoints/account/updateGJAccSettings20">http://www.boomlings.com/database/updateGJAccSettings20.php</a></td></tr>
 </table>
 
 </details>
@@ -118,7 +119,6 @@
     <tr><td><a href="/#/endpoints/level/suggestGJStars20">http://www.boomlings.com/database/suggestGJStars20.php</a></td></tr>
     </table>
 </details>
-
 
 ### Admin Secret
 
@@ -155,7 +155,6 @@ A Secret is split into 5 components and can be divided as such: `x|xxx|xxxx|xx|x
     `2898`  
     `3879`  
     `2878`
-
 
 - **The fourth component seems denote the purpose of the secret.**  
     `gb` seems to be <u>general use</u>.  

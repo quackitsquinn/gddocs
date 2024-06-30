@@ -12,6 +12,7 @@ A typical message server response is structured with a `key:value:key:value` pai
 <!-- tabs:start -->
 
 #### **Message Example Response**
+
 ```md
 6:DevExit:3:3935672:2:173831:1:54109536:4:WW91J3JlIGR1bWIgbG9s:8:1:9:0:5:TWhtIHllcCB5b3UncmUgcCBkdW1iIGxtYW8=:7:19 minutes
 ```
@@ -32,9 +33,9 @@ A list of all known keys can be found in the table below
 | 4   | title      | **String** | The title encoded in [Base64](/topics/encryption/base64.md)
 | 5   | messageContent | **String** | The message which has been [Xor'd](/topics/encryption/xor.md) with a key of `14251` and then encoded in [base64](/topics/encryption/base64.md)
 | 6   | userName   | **String** | The other user's username
-| 7   | age		   | **String** | How long ago the message was sent (e.g. "2 months")
-| 8	  | read	   | **Bool** | 0 if the message hasn't been read, 1 if it has
-| 9	  | sender	   | **Bool** | 0 if the user is receiving the message, 1 if they sent it
+| 7   | age     | **String** | How long ago the message was sent (e.g. "2 months")
+| 8   | read    | **Bool** | 0 if the message hasn't been read, 1 if it has
+| 9   | sender    | **Bool** | 0 if the user is receiving the message, 1 if they sent it
 
 ### Trivia
 

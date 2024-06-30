@@ -28,11 +28,13 @@ print(req.text)
 ```
 
 **Response**
+
 ```html
 Artist: DePianoman</br>Artist is NOT Whitelisted.</br>Artist is Scouted.</br></br>Song: Newbie - Space</br>External API allowed.
 ```
 
 **Human-Readable Response**
+
 ```
 Artist: DePianoman
 Artist is NOT Whitelisted.

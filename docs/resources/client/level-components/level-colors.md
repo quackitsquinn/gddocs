@@ -1,10 +1,13 @@
 # Level Colors
+
 This document goes in depth on how colors, copy colors and player color work as base colors or in color/pulse triggers.
 
 ## Color classes
+
 There are 3 color classes (not to be confused with the GD's classes). Every aspect in GD levels that use colors only take one of the classes. All of the properties that do not belong to the color class being used is ignored.
 
 ### BaseColor
+
 This class contains a static color along with opacity and blending.
 
 These are the properties that are important for a BaseColor:
@@ -20,6 +23,7 @@ These are the properties that are important for a BaseColor:
 **Note**: Blending causes the color to add its color properties by basically using the OpenGL blend mode `glBlendFunc(GL_SRC_ALPHA, GL_ONE)`
 
 ### PlayerColor
+
 This class contains a static color refering to one of the player's icon color along with opacity and blending.
 
 These are the properties that are important for a PlayerColor:
@@ -31,6 +35,7 @@ These are the properties that are important for a PlayerColor:
 | Blending     | **bool**    | The blending property of the PlayerColor |
 
 ### CopyColor
+
 This class contains a dynamic color copied from another color channel. This color changes according to the current color of the channel that is being copied.
 
 | Name            | Type        | Description           |
@@ -42,6 +47,7 @@ This class contains a dynamic color copied from another color channel. This colo
 | Copy HSV        | **[HSV](resources/client/level-components/level-object.md?id=object-string)** | The HSV property that changes the color's tint depending on the value |
 
 ### Determining which class is used
+
 Here is a simple JavaScript function that determines what color class the color object has:
 
 ```javascript
@@ -57,6 +63,7 @@ function getColorClass(color) {
 ```
 
 ## Color Channel ID's
+
 Here are all of the different color id's:
 
 | Interval  | Name              | Description           |
@@ -74,10 +81,12 @@ Here are all of the different color id's:
 | `1010`    | **BLACK**         | This is the static color channel which is always `r: 0, g: 0, b: 0`. Used in saws that are black by default |
 
 ### Undiscovered color channel IDs
+
 `WHITE`: Static color that is always `r: 255, g: 255, b: 255`  
 `LIGHTER`: A lighter version of the primary color in objects. Used in the white small blocks found in `build tab 2 on page 6`.
 
 ### 1.9 color channel ID's
+
 GD's 1.9 version used a different ID scheme to identify color channels. In 2.0+, these IDs are still present, but only used in the legacy `1.9 Color Channel ID` property of 1.9 objects. They are as follows:
 | 1.9 Channel ID | Name | Corresponding 2.0+ ID |
 |:----|:---------|:-----------------------------|
@@ -91,9 +100,11 @@ GD's 1.9 version used a different ID scheme to identify color channels. In 2.0+,
 | `8` | **3DL**   | `1003`
 
 ### Light Background (LBG) calculation
+
 The LBG takes the HSV of background. Subtracts `20` from its saturation, then interpolates from `P1` to the last HSV by a factor of the last HSV's value devided by `100`.
 
 Here is a JavaScript example:
+
 ```javascript
 function lightBG(bg, p1) {
     let hsv = RGBtoHSV(bg);

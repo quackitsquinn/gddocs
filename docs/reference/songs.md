@@ -2,13 +2,11 @@
 
 > **As of Geometry Dash 2.113, there are 38 songs which are used by the game within official levels.**
 
-
 ## Table of Official Songs
 
 > **Note**: *In the tables below, ID refers to the level ID the level would be if uploaded to the servers and the Server ID refers to an ID within the Song Enum.*
 
 <!-- tabs:start -->
-
 
 ### **Geometry Dash**
 
@@ -69,10 +67,9 @@
 | 4002 | 36        | Nock Em                  | Bossfight    |
 | 4003 | 37        | Power Trip               | Boom Kitty   |
 
-<!-- tabs:end --> 
+<!-- tabs:end -->
 
 ## Other Songs
-
 
 <link rel="stylesheet" href="stylesheets/imageStyles.css">
 

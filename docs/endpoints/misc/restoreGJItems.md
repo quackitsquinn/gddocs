@@ -24,7 +24,7 @@ A 500 error code
 import requests
 
 data = {
-	"udid": "605BE9FD-300E-49EA-A45C-B272EE64D3E0",
+ "udid": "605BE9FD-300E-49EA-A45C-B272EE64D3E0",
     "secret": "Wmfd2893gb7"
 }
 
@@ -33,6 +33,7 @@ print(req.status_code)
 ```
 
 **Response**
+
 ```py
 500
 ```

@@ -46,7 +46,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | texQuality| integer | how high the text quality is  |
 | timeOffset| integer | music offset in milliseconds  |
 
-### GLM 
+### GLM
 
 | Key     | Type | description |
 | :-------| :--- | :-----------|
@@ -107,6 +107,7 @@ Your CCGameManager.dat File contains a lot of information regarding your account
 | GJA_003 | AccountID |
 
 #### GDL22 GJA
+
 | Key | Value|
 | :-- |:-----------|
 | GJA_004 | SessionID |

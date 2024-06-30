@@ -18,8 +18,6 @@ Sends a star suggestion for a level
 
 ## Response
 
-
-
 ## Example
 
 <!-- tabs:start -->
@@ -38,6 +36,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 1
 ```

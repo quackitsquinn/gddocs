@@ -36,7 +36,7 @@ Returns the index of the current daily level and the time left in seconds, separ
 import requests
 
 data = {
-	"weekly": 1,
+ "weekly": 1,
     "secret": "Wmfd2893gb7"
 }
 
@@ -45,6 +45,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 100146|121576
 ```

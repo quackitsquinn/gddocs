@@ -21,7 +21,7 @@ Simple XOR function differs can be written like this:
 
 ```py
 def xor(string: str, key: int) -> str:
-	return ("").join(chr(ord(char) ^ key) for char in string)
+ return ("").join(chr(ord(char) ^ key) for char in string)
 ```
 
 <!-- tabs:end -->
@@ -38,9 +38,9 @@ import gzip
 
 
 def decrypt_data(data: str) -> str:
-	base64_decoded = base64.urlsafe_b64decode(xor(data, key=11).encode())
-	decompressed = gzip.decompress(base64_decoded)
-	return decompressed.decode()
+ base64_decoded = base64.urlsafe_b64decode(xor(data, key=11).encode())
+ decompressed = gzip.decompress(base64_decoded)
+ return decompressed.decode()
 ```
 
 <!-- tabs:end -->
@@ -107,9 +107,9 @@ Encryption is done pretty much the same way but with opposite operations and ord
 
 ```py
 def encrypt_data(data: str) -> str:
-	gzipped = gzip.compress(data.encode())
-	base64_encoded = base64.urlsafe_b64encode(gzipped)
-	return xor(base64_encoded.decode(), key=11)
+ gzipped = gzip.compress(data.encode())
+ base64_encoded = base64.urlsafe_b64encode(gzipped)
+ return xor(base64_encoded.decode(), key=11)
 ```
 
 <!-- tabs:end -->

@@ -33,6 +33,7 @@ Endpoint used by moderators to send levels to RobTop
 <!--tabs:start -->
 
 ## Python
+
 ```py
 import requests
 
@@ -54,6 +55,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 1
 ```

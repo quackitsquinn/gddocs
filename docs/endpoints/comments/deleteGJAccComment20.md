@@ -1,7 +1,5 @@
 # deleteGJAccComment20.php
 
-
-
 ## Parameters
 
 ### Required Parameters
@@ -49,6 +47,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 1
 ```

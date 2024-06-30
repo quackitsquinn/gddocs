@@ -22,7 +22,7 @@ Rates the demon difficulty of a demon level - only works for Geometry Dash moder
 
 ### Optional Parameters
 
-**gdw** - 0 
+**gdw** - 0
 
 ## Response
 
@@ -57,6 +57,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 -1
 ```
@@ -84,6 +85,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 4284013
 ```

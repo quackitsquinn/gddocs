@@ -10,7 +10,7 @@ Value Keeper is a giant Dictionary found in CCGameManager.dat that contains the 
 | i_{ID} | The playerCubes you have unlocked |
 | ship_{ID} | The PlayerShips you have unlocked |
 | ball_{ID} | The PlayerBalls you have unlocked |
-| bird_{ID} | The PlayerBirdss you have unlocked |   
+| bird_{ID} | The PlayerBirdss you have unlocked |
 | dart_{ID} | The PlayerDarts you have unlocked |
 | robot_{ID} | The PlayerRobots you have unlocked |
 | special_{ID} | The PlayerStreaks you have unlocked|

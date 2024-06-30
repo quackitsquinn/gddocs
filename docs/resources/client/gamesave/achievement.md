@@ -7,6 +7,7 @@ keep in mind that adding the achievements into your save data manually will only
 ## Achievement key structure
 
 Inside CCGameManager.dat, every achievement you have progress on can be found in the `<k>reportedAchievements</k>` Dictionary. they are all organised like this
+
  ```xml
  <k>geometry.ach.[internal achievement name]</k><i>[percentage complete]</i><k>geometry.ach.[internal achievement name]</k><i>[percentage complete]</i>
  ```
@@ -72,7 +73,7 @@ Inside CCGameManager.dat, every achievement you have progress on can be found in
 | geometry.ach.mappacks08 | Complete 35 Map Packs |
 | geometry.ach.mappacks09 | Complete 40 Map Packs |
 | geometry.ach.mappacks10 | Complete 45 Map Packs |
-| geometry.ach.custom01 | Complete 1 User Created Level in Normal Mode|   
+| geometry.ach.custom01 | Complete 1 User Created Level in Normal Mode|
 | geometry.ach.custom02 | Complete 10 User Created Level in Normal Mode|
 | geometry.ach.custom03 | Complete 50 User Created Level in Normal Mode|
 | geometry.ach.custom04 | Complete 100 User Created Level in Normal Mode|
@@ -283,6 +284,7 @@ Inside CCGameManager.dat, every achievement you have progress on can be found in
 | geometry.ach.v3.secret05 | Type 'volcano' into the Chamber of Time |
 
 ## GD Meltdown Achievements
+
 | Internal name | How it's acquired |
 | :-------------| :-------------- |
 | geometry.ach.mdlevel01b | Beat The Seven Seas in normal mode |
@@ -294,6 +296,7 @@ Inside CCGameManager.dat, every achievement you have progress on can be found in
 | geometry.ach.mdrate | Click the icon with ID 71 when it's locked (positioned as 11th) |
 
 ## GD World Achievements
+
 | Internal name | How it's acquired |
 | :-------------| :-------------- |
 | geometry.ach.world.level001b | Beat Payload in normal mode |
@@ -308,6 +311,7 @@ Inside CCGameManager.dat, every achievement you have progress on can be found in
 | geometry.ach.world.level010b | Beat Monster Dance Off in normal mode |
 
 ## GD Subzero Achievements
+
 | Internal name | How it's acquired |
 | :-------------| :-------------- |
 | geometry.ach.subzero.level001 | Beat Press Start in normal mode |

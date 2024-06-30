@@ -53,6 +53,6 @@ To interact with the Geometry Dash API you need a 11 character long string calle
 | Secret | type | Usage |
 |:-------|:-----|:------|
 | `Wmfd2893gb7` | **Common Secret** | Used in the majority of requests |
-| `Wmfv3899gc9` | **Account Secret** | Used for all account related requests | 
+| `Wmfv3899gc9` | **Account Secret** | Used for all account related requests |
 | `Wmfv2898gc9` | **Level Secret** | Used in level deletion |
 | `Wmfp3879gc3` | **Mod Secret** | Used in moderator only requests |

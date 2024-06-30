@@ -45,8 +45,8 @@ import requests
 
 data = {
     "secret": "Wmfd2893gb7",
-	"itemID": 62687277,
-	"type": 1
+ "itemID": 62687277,
+ "type": 1
 }
 
 req = requests.post('http://boomlings.com/database/likeGJItem211.php', data=data)
@@ -54,6 +54,7 @@ print(req.text)
 ```
 
 **Response**
+
 ```py
 1
 ```

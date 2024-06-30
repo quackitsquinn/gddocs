@@ -1,9 +1,11 @@
 # Client Level Object Resource
 
 ## Level Object
+
 A level object is an object within a Geometry Dash level, containing data about its behavior.
 
 ### Object String
+
 The object string is contained within the [inner level string](). It is formatted as follows:
 
 `{object};{object};{object};...`, where `object` is formatted as:
@@ -43,7 +45,7 @@ Property keys reflect the keys found in the following table, whereas property va
 
 ### Level Object Data
 
-## Hey! This is out of date and has no 2.2 info. You will probably want to use the [GD Info Explorer](https://flowvix.github.io/GD-Info-Explorer) for the most up-to-date information
+## **Hey! This is out of date and has no 2.2 info. You will probably want to use the [GD Info Explorer](https://flowvix.github.io/gd-info-explorer) for the most up-to-date information**
 
 | Key | Name/Value                           | Type                                            | Description                                                                        |
 |:----|:-------------------------------------|:------------------------------------------------|:-----------------------------------------------------------------------------------|

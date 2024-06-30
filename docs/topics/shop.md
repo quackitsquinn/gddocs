@@ -2,7 +2,7 @@
 
 There are 3 different shops in Geometry Dash which allow the player to purchase various icons. Below is a table which contains every shop item in the game
 
-**Note:** ItemID refers to the ID of the item Type. 
+**Note:** ItemID refers to the ID of the item Type.
 
 | listingID | itemID | Item Type | cost | Shop Type |
 |:-------|:-------|:----------|:-----|:----------|

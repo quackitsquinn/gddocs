@@ -134,7 +134,7 @@ The Diamond Rewards Collected from Challenges and Daily levels
 
 | structure | type |Description |
 |:----------|:------|:-----------|
-|`{TypeID}{challenge/dailyID}` | int | The Number of Diamonds Earned | 
+|`{TypeID}{challenge/dailyID}` | int | The Number of Diamonds Earned |
 
 ### TypeID's
 
@@ -209,7 +209,6 @@ GS_21 Contains the reward data for the gauntlets you have completed
 | 0007 | YouTube Chest |
 | 0008 | Twitter Chest |
 | 0009 | Facebook Chest |
-
 
 ## GS_22
 
