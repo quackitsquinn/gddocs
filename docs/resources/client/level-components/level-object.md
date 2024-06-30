@@ -42,7 +42,8 @@ Property keys reflect the keys found in the following table, whereas property va
 | **string**          | raw string without quotation marks (e.g. `ExampleString`)                                   |
 
 ### Level Object Data
-**Level Object Structure**
+
+## Hey! This is out of date and has no 2.2 info. You will probably want to use the [GD Info Explorer](https://flowvix.github.io/GD-Info-Explorer) for the most up-to-date information
 
 | Key | Name/Value                           | Type                                            | Description                                                                        |
 |:----|:-------------------------------------|:------------------------------------------------|:-----------------------------------------------------------------------------------|
