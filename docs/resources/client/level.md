@@ -48,7 +48,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k41 | Password                       | **integer**                                                      | the [password]() <!-- local gamesave password topic link --> set for the level   |
 | k42 | Original                       | **integer**                                                      | The ID the of the original level (if the level was copied)           |
 | k43 | Two-Player Mode                | **Bool**                                                         | If the level is 2 player mode                                                    |
-| k45 | Custom Song ID                 | **integer**                                                      | the custom Song ID (if used)                                                     |
+| k45 | Custom Song ID                 | **integer**                                                      | the custom Song ID (if used)  (This may not be used in 2.2)                                                   |
 | k46 | Level Revision                 | **integer**                                                      | the revision of the level                                                        |
 | k47 | hasBeenModified                | **Bool**                                                         | if the level has been modified from outside the GD editor                        |
 | k48 | Object Count                   | **integer**                                                      | the object count of the level                                                |
@@ -87,7 +87,8 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k88 | Level Progress                 | **String**                                                      | Contains a list of high score differences seperated by a `,`                     |
 | k89 | vfDChk | **Bool**                    | used to check for level completion                                               |
 | k90 | Leaderboard percentage         | **integer**                                                      | Contains the percentage for level Leaderboards                      |
-
+| k104| Custom songs                 | **String**                                                      | A comma-separated list of songs used in the level if more than one.                |
+| k105| SFX ids                      | **String**                                                      | A comma-separated list of SFX ids used in the level.             |
 
 **Last Editor State Key/Value Pairs**
 The last editor state key/value pairs contain a few values that indicate the last state of the editor before exiting the editor on that level.
