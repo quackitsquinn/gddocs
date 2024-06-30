@@ -6,7 +6,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 
 ### Level Data
 
-**Level Structure**
+#### Level Structure
 
 | Key | Name/Value                     | Type                                                             | Description                                                                      |
 | :-- | :----------------------------- | :--------------------------------------------------------------- | :------------------------------------------------------------------------------- |
@@ -45,7 +45,7 @@ A level is a playable object in Geometry Dash, namely coming with data that expl
 | k38 | isUnlocked                     | **Bool**                                                         | is Official level Unlocked                                                       |
 | k39 | level Size                     | **integer**                                                      | `this->levelSize = std::floor(this->levelString.length() * 0.152);`              |
 | k40 | Build Version                  | **integer**                                                      | the games build version                                                          |
-| k41 | Password                       | **integer**                                                      | the [password]() <!-- local gamesave password topic link --> set for the level   |
+| k41 | Password                       | **integer**                                                      | the password <!-- local gamesave password topic link --> set for the level   |
 | k42 | Original                       | **integer**                                                      | The ID the of the original level (if the level was copied)           |
 | k43 | Two-Player Mode                | **Bool**                                                         | If the level is 2 player mode                                                    |
 | k45 | Custom Song ID                 | **integer**                                                      | the custom Song ID (if used)  (This may not be used in 2.2)                                                   |
@@ -115,7 +115,7 @@ The build tab page is 5, and the button settings are 6x2 (default), meaning the 
 
 <!-- from what i gathered, there doesnt seem to be any code that triggers these yet-->
 
-**Current Unknown Values**
+#### Current Unknown Values
 
 | Key | Type        | Info                                                     |
 | :-- | :---------- | :------------------------------------------------------- |

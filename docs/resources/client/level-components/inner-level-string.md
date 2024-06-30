@@ -2,12 +2,12 @@
 
 ## Inner Level String
 
-The inner level string consists of information about the starting state of the level and the objects it contains. It is encoded in [base64](). Its raw representation is formatted as follows:
+The inner level string consists of information about the starting state of the level and the objects it contains. It is encoded in base64. Its raw representation is formatted as follows:
 
 `{level_start};{object_string}`, where
 
 - `level_start` is the level start object,
-- `object_string` is the [object string]().
+- `object_string` is the [object string](level-object).
 
 Theoretically, the inner level string in its entirety is the object string, however the level start object is treated specially, unlike every other object, and doesn't even have an ID.
 

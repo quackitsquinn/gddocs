@@ -6,7 +6,7 @@ A level object is an object within a Geometry Dash level, containing data about 
 
 ### Object String
 
-The object string is contained within the [inner level string](). It is formatted as follows:
+The object string is contained within the [inner level string](inner-level-string). It is formatted as follows:
 
 `{object};{object};{object};...`, where `object` is formatted as:
 
@@ -40,7 +40,7 @@ Property keys reflect the keys found in the following table, whereas property va
 | **float**           | decimal numerical value string, using `.` as the decimal point separator (e.g. `12.41`)     |
 | **any enumeration** | same as **integer**                                                                         |
 | **integer array**   | all values are separated by `.` (e.g. `1.42.51.23` for `{ 1, 42, 51, 23 }`)                 |
-| **[HSV]()**         | `{h}a{s}a{v}a{s_checked}a{v_checked}`, where each name reflects the respective HSV property |
+| **HSV**             | `{h}a{s}a{v}a{s_checked}a{v_checked}`, where each name reflects the respective HSV property |
 | **string**          | raw string without quotation marks (e.g. `ExampleString`)                                   |
 
 ### Level Object Data
@@ -76,20 +76,20 @@ Property keys reflect the keys found in the following table, whereas property va
 | 28  | Offset X                             | **integer**                                     | the Offset X property of the Move trigger                                          |
 | 29  | Offset Y                             | **integer**                                     | the Offset Y property of the Move trigger                                          |
 | 30  | Easing                               | **[Easing](enumerations.md)**                   | the Easing type of the effect of a trigger                                         |
-| 31  | Text                                 | **string**                                      | the text of the text object in [base64]()                                          |
+| 31  | Text                                 | **string**                                      | the text of the text object in base64                                         |
 | 32  | Scaling                              | **float**                                       | the scaling of the object                                                          |
 | 33  | Single Group ID                      | **integer**                                     | a group ID given to the object                                                      |
 | 34  | Group Parent                         | **bool**                                        | the Group Parent property of the object                                            |
 | 35  | Opacity                              | **float**                                       | the opacity value of a trigger                                                     |
 | 41  | Main Color HSV Enabled               | **bool**                                        | whether the HSV mode is enabled for the Main Color of the object                   |
 | 42  | Secondary Color HSV Enabled          | **bool**                                        | whether the HSV mode is enabled for the Secondary Color of the object              |
-| 43  | Main Color HSV                       | **[HSV]()**                                     | the HSV adjustment values of the Main Color of the object                          |
-| 44  | Secondary Color HSV                  | **[HSV]()**                                     | the HSV adjustment values of the Secondary Color of the object                     |
+| 43  | Main Color HSV                       | **HSV**                                     | the HSV adjustment values of the Main Color of the object                          |
+| 44  | Secondary Color HSV                  | **HSV**                                     | the HSV adjustment values of the Secondary Color of the object                     |
 | 45  | Fade In                              | **float**                                       | the Fade In property of the Pulse trigger                                          |
 | 46  | Hold                                 | **float**                                       | the Hold property of the Pulse trigger                                             |
 | 47  | Fade Out                             | **float**                                       | the Fade Out property of the Pulse trigger                                         |
 | 48  | Pulse Mode                           | **[Pulse Mode](enumerations.md)**               | the Pulse Mode property of the Pulse trigger                                       |
-| 49  | Copied Color HSV                     | **[HSV]()**                                     | the HSV adjustment values of the Copied Color property of a trigger                |
+| 49  | Copied Color HSV                     | **HSV**                                     | the HSV adjustment values of the Copied Color property of a trigger                |
 | 50  | Copied Color ID                      | **integer**                                     | the Copied Color Channel ID in a trigger                                           |
 | 51  | Target Group ID                      | **integer**                                     | the Target Group ID in a trigger                                                   |
 | 52  | Pulse Target Type                    | **[Pulse Target Type](enumerations.md)**        | the Target Type property of the Pulse trigger                                      |
@@ -159,26 +159,5 @@ The following features are discovered in current local save files, however their
 ***Potentially Discarded Features***
 
 The following key ranges are potentially discarded features, whose appearance in earlier versions of the game is unknown and untested.
-<table>
-  <tr>
-    <th>Key Start</th>
-    <th>Key End</th>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">18</td>
-  </tr>
-  <tr>
-    <td align="center">26</td>
-    <td align="center">27</td>
-  </tr>
-  <tr>
-    <td align="center">37</td>
-    <td align="center">40</td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">53</td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">83</td>
-  </tr>
-</table>
+
+18; 26-27; 37-40; 53; 83
